@@ -1,0 +1,56 @@
+.projects-description__settings.filter-settings
+	.filter-settings__grid
+		.filter-settings__column.filter-settings__column_type_range
+			.filter-settings__column-title
+				| Цена
+			.filter-settings__range-fields
+				.filter-settings__range-fields-group
+					.filter-settings__range-fields-group-text
+						| от
+					input.filter-settings__range-fields-group-field.filter-settings__range-fields-group-field-from.filter-settings__range-fields-group-field-from-price(type="number")
+				.filter-settings__range-fields-group
+					.filter-settings__range-fields-group-text
+						| до
+					input.filter-settings__range-fields-group-field.filter-settings__range-fields-group-field-to.filter-settings__range-fields-group-field-to-price(type="number")
+			input.filter-settings__range-price(type="text")
+		.filter-settings__column.filter-settings__column_type_range
+			.filter-settings__column-title
+				| Площадь м
+				sup
+					| 2
+			.filter-settings__range-fields
+				.filter-settings__range-fields-group
+					.filter-settings__range-fields-group-text
+						| от
+					input.filter-settings__range-fields-group-field.filter-settings__range-fields-group-field-from.filter-settings__range-fields-group-field-from-area(type="number")
+				.filter-settings__range-fields-group
+					.filter-settings__range-fields-group-text
+						| до
+					input.filter-settings__range-fields-group-field.filter-settings__range-fields-group-field-to.filter-settings__range-fields-group-field-to-area(type="number")
+			input.filter-settings__range-area(type="text")
+
+		.filter-settings__column.filter-settings__column_type_checkbox
+			.filter-settings__column-title
+				| Дополнительные параметры
+			.filter-settings__checkbox-grid
+				.filter-settings__checkbox-column
+					.filter-settings__checkbox-item
+						input.custom.filter-settings__checkbox-input(type="checkbox") 
+						| Эркер
+					.filter-settings__checkbox-item
+						input.custom.filter-settings__checkbox-input(type="checkbox") 
+						| Балкон
+				.filter-settings__checkbox-column
+					.filter-settings__checkbox-item
+						input.custom.filter-settings__checkbox-input(type="checkbox") 
+						| Мансарда
+					.filter-settings__checkbox-item
+						input.custom.filter-settings__checkbox-input(type="checkbox") 
+						| Санузел
+				.filter-settings__checkbox-column
+					.filter-settings__checkbox-item
+						input.custom.filter-settings__checkbox-input(type="checkbox") 
+						| Терраса
+					.filter-settings__checkbox-item
+						input.custom.filter-settings__checkbox-input(type="checkbox") 
+						| Вернанда

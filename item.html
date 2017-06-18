@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.6/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.6/css/ion.rangeSlider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.6/css/ion.rangeSlider.skinHTML5.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <title>Главная</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="header__container">
+              <div class="header__column header__column_logo"><img src="images/logo.png" alt="Стройте у нас" width="197" height="59"></div>
+              <div class="header__column header__column_contacts">
+                <div class="contacts-header">
+                  <div class="contacts-header__city">Ваш город: <a class="contacts-header__city-link" href="#">Москва</a></div>
+                  <div class="contacts-header__info">
+                    <div class="contacts-header__phone">+7 (950) 684-38-03</div>
+                    <div class="contacts-header__schedule">Ежедневно с 9:00 до 21:00</div>
+                  </div><a class="btn btn_theme_yellow btn_size_sm" href="#">ЗАКАЗАТЬ ЗВОНОК</a>
+                </div>
+              </div>
+              <form class="header__column header__column_search" action="./">
+                <div class="search hidden-xs">
+                  <input class="search__input" type="text" placeholder="Поиск">
+                  <button class="btn btn_theme_green btn_type_search">
+                    <div class="i-search"></div>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="visible-xs">
+              <div class="nav__mobile-container">
+                <div class="nav__icon"><span></span><span></span><span></span></div>
+                <form class="header__column header__column_search" action="./">
+                  <div class="search">
+                    <input class="search__input" type="text" placeholder="Поиск">
+                    <button class="btn btn_theme_yellow btn_type_search">
+                      <div class="i-search"></div>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <ul class="nav__container">
+              <li class="nav__item"><a class="nav__link" href="#">Проекты</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Услуги</a></li>
+              <li class="nav__item"><a class="nav__link nav__link_action" href="#">Акции</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Галерея</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">галерея</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">отзывы</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="breadcrumbs">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Проекты</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">дОМА</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link breadcrumbs__link_active">Дома С МАНСАРДОЙ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="text__h2 project__title">дОМ из бруса 6х6 «Теремок»</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-7 col-lg-8">
+            <div class="project__left">
+              <ul class="project__gallery-tab project-tabs-gallery">
+                <li class="project-tabs-gallery__tab active"><a class="project-tabs-gallery__link" data-toggle="tab" href="#project-gallery-tab1">Виды дома</a></li>
+                <li class="project-tabs-gallery__tab"><a class="project-tabs-gallery__link" data-toggle="tab" href="#project-gallery-tab2">Планировка дома</a></li>
+                <li class="project-tabs-gallery__tab"><a class="project-tabs-gallery__link" data-toggle="tab" href="#project-gallery-tab3" onclick="$('.project-gallery-slider__prs').trigger('reInit')">Фотографии дома</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="project-gallery-tab1">
+                      <div class="project__gallery project-gallery-slider">
+                        <div class="project__gallery project-gallery-slider__icon"><i class="i-move"></i></div>
+                        <div class="project__gallery project-gallery-slider__slides">
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                        </div>
+                        <div class="project__gallery project-gallery-slider__prs">
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="project-gallery-tab2">
+                      <div class="project__gallery project-gallery-slider">
+                        <div class="project__gallery project-gallery-slider__icon"><i class="i-move"></i></div>
+                        <div class="project__gallery project-gallery-slider__slides">
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                        </div>
+                        <div class="project__gallery project-gallery-slider__prs">
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="project-gallery-tab3">
+                      <div class="project__gallery project-gallery-slider">
+                        <div class="project__gallery project-gallery-slider__icon"><i class="i-move"></i></div>
+                        <div class="project__gallery project-gallery-slider__slides">
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__slide"><img src="images/project-gallery.jpg" alt=""></div>
+                        </div>
+                        <div class="project__gallery project-gallery-slider__prs">
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                          <div class="project-gallery-slider__pr"><img class="img-responsive" src="images/project-gallery.jpg" alt=""></div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-5 col-lg-4">
+            <div class="project__chars project-chars">
+              <div class="project-chars__title">хАРАКТЕРИСТИКИ ПРОЕКТА</div>
+              <div class="project-chars__body">
+                <table class="project-chars__table">
+                  <tr class="project-chars__tr">
+                    <td class="project-chars__td"><span class="project-chars__key">Внешние размеры дома		</span></td>
+                    <td class="project-chars__td"><span class="project-chars__val">6х9 м</span></td>
+                  </tr>
+                  <tr class="project-chars__tr">
+                    <td class="project-chars__td"><span class="project-chars__key">Общая площадь</span></td>
+                    <td class="project-chars__td"><span class="project-chars__val">99,75м2</span></td>
+                  </tr>
+                  <tr class="project-chars__tr">
+                    <td class="project-chars__td"><span class="project-chars__key">Жилая площадь</span></td>
+                    <td class="project-chars__td"><span class="project-chars__val">82,64 м2</span></td>
+                  </tr>
+                  <tr class="project-chars__tr">
+                    <td class="project-chars__td"><span class="project-chars__key">Высота 1 этажа</span></td>
+                    <td class="project-chars__td"><span class="project-chars__val">2,3-2,35 м</span></td>
+                  </tr>
+                  <tr class="project-chars__tr">
+                    <td class="project-chars__td"><span class="project-chars__key">Высота 2 этажа</span></td>
+                    <td class="project-chars__td"><span class="project-chars__val">2,3-2,35 м</span></td>
+                  </tr>
+                  <tr class="project-chars__tr">
+                    <td class="project-chars__td"><span class="project-chars__key">Количество комнат</span></td>
+                    <td class="project-chars__td"><span class="project-chars__val">4</span></td>
+                  </tr>
+                  <tr class="project-chars__tr">
+                    <td class="project-chars__td"><span class="project-chars__key">Санузел</span></td>
+                    <td class="project-chars__td"><span class="project-chars__val">Есть</span></td>
+                  </tr>
+                </table>
+              </div>
+              <footer class="project-chars__foo">Срок строительства
+                <footer class="project-chars__term">14 дней</footer>
+              </footer>
+            </div>
+            <div class="project__price project-price">
+              <div class="project-price__label">Стоимость строительства</div>
+              <div class="project-price__key">от 480 000 <i class="fa fa-rub"></i></div>
+              <div class="project-price__fixed">Зафиксировать цену до 12.02.2017</div>
+              <div class="project-price__info">Ожидается сезонное повышений цен</div><a class="btn btn_theme_yellow project-price__btn">Получить бесплатную консультацию</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="project-info">
+              <ul class="project-info__tab project-tabs-gallery">
+                <li class="project-tabs-gallery__tab active"><a class="project-tabs-gallery__link" data-toggle="tab" href="#project-info-tab1">Цены и комплектации</a></li>
+                <li class="project-tabs-gallery__tab"><a class="project-tabs-gallery__link" data-toggle="tab" href="#project-info-tab2">дОСТАВКА</a></li>
+                <li class="project-tabs-gallery__tab"><a class="project-tabs-gallery__link" data-toggle="tab" href="#project-info-tab3">описание</a></li>
+                <li class="project-tabs-gallery__tab"><a class="project-tabs-gallery__link" data-toggle="tab" href="#project-info-tab4">Вотпрос-ответ</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="project-info-tab1">
+                  <ul class="project-info__tab project-tabs-table">
+                    <li class="project-tabs-table__tab active"><a class="project-tabs-table__link" data-toggle="tab" href="#project-table-tab1">
+                        <div class="project-tabs-table__name">Брус 90х140 мм.</div>
+                        <div class="project-tabs-table__price">540 000 <i class="fa fa-rub"></i></div></a></li>
+                    <li class="project-tabs-table__tab"><a class="project-tabs-table__link" data-toggle="tab" href="#project-table-tab2">
+                        <div class="project-tabs-table__name">Клееный брус</div>
+                        <div class="project-tabs-table__price">740 000 <i class="fa fa-rub"></i></div></a></li>
+                    <li class="project-tabs-table__tab"><a class="project-tabs-table__link" data-toggle="tab" href="#project-table-tab3">
+                        <div class="project-tabs-table__name">Каркасный вариант</div>
+                        <div class="project-tabs-table__price">470 000 <i class="fa fa-rub"></i></div></a></li>
+                    <li class="project-tabs-table__tab"><a class="project-tabs-table__link" data-toggle="tab" href="#project-table-tab4">
+                        <div class="project-tabs-table__name">Сухой брус</div>
+                        <div class="project-tabs-table__price">680 000 <i class="fa fa-rub"></i></div></a></li>
+                    <li class="project-tabs-table__tab"><a class="project-tabs-table__link" data-toggle="tab" href="#project-table-tab5">
+                        <div class="project-tabs-table__name">Брус из кедра</div>
+                        <div class="project-tabs-table__price">920 000 <i class="fa fa-rub"></i></div></a></li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane fade in active" id="project-table-tab1">
+                          <table class="info-table">
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Обвязка:
+                              </td>
+                              <td class="info-table__td">Одинарная. Нестроганный брус хвойных пород естественной влажности 150х150мм.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Лаги:	
+                              </td>
+                              <td class="info-table__td">Брус 40х150, с шагом не более 70см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Фронтоны:	
+                              </td>
+                              <td class="info-table__td">Выполнены из доски 40х100мм, обшиты вагонкой хвойных пород, естественной влажности</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Обрешетка:	
+                              </td>
+                              <td class="info-table__td">Не сплошная из полуобрезной доски 20 мм, с шагом не более 30 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Кровля:	
+                              </td>
+                              <td class="info-table__td">Рубероид.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Сборка углов:	
+                              </td>
+                              <td class="info-table__td">В пол дерева.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Капитальные стены:	
+                              </td>
+                              <td class="info-table__td">Профилированный брус хвойных пород естественной влажности, размерами 100х150мм (100мм ширина х 150мм высота), возможно выполнение из бруса 150х150мм 150х200мм.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Теплоизоляция:	
+                              </td>
+                              <td class="info-table__td">В качестве теплоизоляции между брусом укладывается межвенцовый утеплитель – джутовое льнополотно</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Перегородки:
+                              </td>
+                              <td class="info-table__td">1-й этаж: профилированный брус естественной влажности 100х150мм, (100мм ширина х 150мм высота) 2-й этаж: каркасные из доски 40х100, отделанные вагонкой хвойных пород, камерной сушки</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Балки межэтажного перекрытия:
+                              </td>
+                              <td class="info-table__td">Брус 40х150, с шагом не более 90 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Высота этажей:
+                              </td>
+                              <td class="info-table__td">1 этаж - 2.30 17 венцов. 2 этаж - 2.20</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Лестница:
+                              </td>
+                              <td class="info-table__td">Лаз на мансарду.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Мансарда:	
+                              </td>
+                              <td class="info-table__td">Каркасная, обшита вагонкой хвойных пород, камерной сушки</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Стропила:	
+                              </td>
+                              <td class="info-table__td">Выполнены из доски 40х100мм, с шагом не более 90 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Поднебесники:
+                              </td>
+                              <td class="info-table__td">27 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Гвозди для сруба и силовых конструкций:	
+                              </td>
+                              <td class="info-table__td">Обычные, не оцинкованные. Для внешней и внутренней отделки, оцинкованные и финишные</td>
+                            </tr>
+                          </table><a class="btn btn_theme_yellow info-table__btn">Получить бесплатную консультацию</a>
+                    </div>
+                    <div class="tab-pane fade" id="project-table-tab2">
+                          <table class="info-table">
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Обвязка:
+                              </td>
+                              <td class="info-table__td">Одинарная. Нестроганный брус хвойных пород естественной влажности 150х150мм.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Лаги:	
+                              </td>
+                              <td class="info-table__td">Брус 40х150, с шагом не более 70см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Фронтоны:	
+                              </td>
+                              <td class="info-table__td">Выполнены из доски 40х100мм, обшиты вагонкой хвойных пород, естественной влажности</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Обрешетка:	
+                              </td>
+                              <td class="info-table__td">Не сплошная из полуобрезной доски 20 мм, с шагом не более 30 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Кровля:	
+                              </td>
+                              <td class="info-table__td">Рубероид.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Сборка углов:	
+                              </td>
+                              <td class="info-table__td">В пол дерева.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Капитальные стены:	
+                              </td>
+                              <td class="info-table__td">Профилированный брус хвойных пород естественной влажности, размерами 100х150мм (100мм ширина х 150мм высота), возможно выполнение из бруса 150х150мм 150х200мм.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Теплоизоляция:	
+                              </td>
+                              <td class="info-table__td">В качестве теплоизоляции между брусом укладывается межвенцовый утеплитель – джутовое льнополотно</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Перегородки:
+                              </td>
+                              <td class="info-table__td">1-й этаж: профилированный брус естественной влажности 100х150мм, (100мм ширина х 150мм высота) 2-й этаж: каркасные из доски 40х100, отделанные вагонкой хвойных пород, камерной сушки</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Балки межэтажного перекрытия:
+                              </td>
+                              <td class="info-table__td">Брус 40х150, с шагом не более 90 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Высота этажей:
+                              </td>
+                              <td class="info-table__td">1 этаж - 2.30 17 венцов. 2 этаж - 2.20</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Лестница:
+                              </td>
+                              <td class="info-table__td">Лаз на мансарду.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Мансарда:	
+                              </td>
+                              <td class="info-table__td">Каркасная, обшита вагонкой хвойных пород, камерной сушки</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Стропила:	
+                              </td>
+                              <td class="info-table__td">Выполнены из доски 40х100мм, с шагом не более 90 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Поднебесники:
+                              </td>
+                              <td class="info-table__td">27 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Гвозди для сруба и силовых конструкций:	
+                              </td>
+                              <td class="info-table__td">Обычные, не оцинкованные. Для внешней и внутренней отделки, оцинкованные и финишные</td>
+                            </tr>
+                          </table><a class="btn btn_theme_yellow info-table__btn">Получить бесплатную консультацию</a>
+                    </div>
+                    <div class="tab-pane fade" id="project-table-tab3">
+                          <table class="info-table">
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Обвязка:
+                              </td>
+                              <td class="info-table__td">Одинарная. Нестроганный брус хвойных пород естественной влажности 150х150мм.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Лаги:	
+                              </td>
+                              <td class="info-table__td">Брус 40х150, с шагом не более 70см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Фронтоны:	
+                              </td>
+                              <td class="info-table__td">Выполнены из доски 40х100мм, обшиты вагонкой хвойных пород, естественной влажности</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Обрешетка:	
+                              </td>
+                              <td class="info-table__td">Не сплошная из полуобрезной доски 20 мм, с шагом не более 30 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Кровля:	
+                              </td>
+                              <td class="info-table__td">Рубероид.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Сборка углов:	
+                              </td>
+                              <td class="info-table__td">В пол дерева.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Капитальные стены:	
+                              </td>
+                              <td class="info-table__td">Профилированный брус хвойных пород естественной влажности, размерами 100х150мм (100мм ширина х 150мм высота), возможно выполнение из бруса 150х150мм 150х200мм.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Теплоизоляция:	
+                              </td>
+                              <td class="info-table__td">В качестве теплоизоляции между брусом укладывается межвенцовый утеплитель – джутовое льнополотно</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Перегородки:
+                              </td>
+                              <td class="info-table__td">1-й этаж: профилированный брус естественной влажности 100х150мм, (100мм ширина х 150мм высота) 2-й этаж: каркасные из доски 40х100, отделанные вагонкой хвойных пород, камерной сушки</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Балки межэтажного перекрытия:
+                              </td>
+                              <td class="info-table__td">Брус 40х150, с шагом не более 90 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Высота этажей:
+                              </td>
+                              <td class="info-table__td">1 этаж - 2.30 17 венцов. 2 этаж - 2.20</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Лестница:
+                              </td>
+                              <td class="info-table__td">Лаз на мансарду.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Мансарда:	
+                              </td>
+                              <td class="info-table__td">Каркасная, обшита вагонкой хвойных пород, камерной сушки</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Стропила:	
+                              </td>
+                              <td class="info-table__td">Выполнены из доски 40х100мм, с шагом не более 90 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Поднебесники:
+                              </td>
+                              <td class="info-table__td">27 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Гвозди для сруба и силовых конструкций:	
+                              </td>
+                              <td class="info-table__td">Обычные, не оцинкованные. Для внешней и внутренней отделки, оцинкованные и финишные</td>
+                            </tr>
+                          </table><a class="btn btn_theme_yellow info-table__btn">Получить бесплатную консультацию</a>
+                    </div>
+                    <div class="tab-pane fade" id="project-table-tab4">
+                          <table class="info-table">
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Обвязка:
+                              </td>
+                              <td class="info-table__td">Одинарная. Нестроганный брус хвойных пород естественной влажности 150х150мм.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Лаги:	
+                              </td>
+                              <td class="info-table__td">Брус 40х150, с шагом не более 70см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Фронтоны:	
+                              </td>
+                              <td class="info-table__td">Выполнены из доски 40х100мм, обшиты вагонкой хвойных пород, естественной влажности</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Обрешетка:	
+                              </td>
+                              <td class="info-table__td">Не сплошная из полуобрезной доски 20 мм, с шагом не более 30 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Кровля:	
+                              </td>
+                              <td class="info-table__td">Рубероид.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Сборка углов:	
+                              </td>
+                              <td class="info-table__td">В пол дерева.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Капитальные стены:	
+                              </td>
+                              <td class="info-table__td">Профилированный брус хвойных пород естественной влажности, размерами 100х150мм (100мм ширина х 150мм высота), возможно выполнение из бруса 150х150мм 150х200мм.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Теплоизоляция:	
+                              </td>
+                              <td class="info-table__td">В качестве теплоизоляции между брусом укладывается межвенцовый утеплитель – джутовое льнополотно</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Перегородки:
+                              </td>
+                              <td class="info-table__td">1-й этаж: профилированный брус естественной влажности 100х150мм, (100мм ширина х 150мм высота) 2-й этаж: каркасные из доски 40х100, отделанные вагонкой хвойных пород, камерной сушки</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Балки межэтажного перекрытия:
+                              </td>
+                              <td class="info-table__td">Брус 40х150, с шагом не более 90 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Высота этажей:
+                              </td>
+                              <td class="info-table__td">1 этаж - 2.30 17 венцов. 2 этаж - 2.20</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Лестница:
+                              </td>
+                              <td class="info-table__td">Лаз на мансарду.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Мансарда:	
+                              </td>
+                              <td class="info-table__td">Каркасная, обшита вагонкой хвойных пород, камерной сушки</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Стропила:	
+                              </td>
+                              <td class="info-table__td">Выполнены из доски 40х100мм, с шагом не более 90 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Поднебесники:
+                              </td>
+                              <td class="info-table__td">27 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Гвозди для сруба и силовых конструкций:	
+                              </td>
+                              <td class="info-table__td">Обычные, не оцинкованные. Для внешней и внутренней отделки, оцинкованные и финишные</td>
+                            </tr>
+                          </table><a class="btn btn_theme_yellow info-table__btn">Получить бесплатную консультацию</a>
+                    </div>
+                    <div class="tab-pane fade" id="project-table-tab5">
+                          <table class="info-table">
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Обвязка:
+                              </td>
+                              <td class="info-table__td">Одинарная. Нестроганный брус хвойных пород естественной влажности 150х150мм.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Лаги:	
+                              </td>
+                              <td class="info-table__td">Брус 40х150, с шагом не более 70см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Фронтоны:	
+                              </td>
+                              <td class="info-table__td">Выполнены из доски 40х100мм, обшиты вагонкой хвойных пород, естественной влажности</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Обрешетка:	
+                              </td>
+                              <td class="info-table__td">Не сплошная из полуобрезной доски 20 мм, с шагом не более 30 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Кровля:	
+                              </td>
+                              <td class="info-table__td">Рубероид.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Сборка углов:	
+                              </td>
+                              <td class="info-table__td">В пол дерева.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Капитальные стены:	
+                              </td>
+                              <td class="info-table__td">Профилированный брус хвойных пород естественной влажности, размерами 100х150мм (100мм ширина х 150мм высота), возможно выполнение из бруса 150х150мм 150х200мм.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Теплоизоляция:	
+                              </td>
+                              <td class="info-table__td">В качестве теплоизоляции между брусом укладывается межвенцовый утеплитель – джутовое льнополотно</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Перегородки:
+                              </td>
+                              <td class="info-table__td">1-й этаж: профилированный брус естественной влажности 100х150мм, (100мм ширина х 150мм высота) 2-й этаж: каркасные из доски 40х100, отделанные вагонкой хвойных пород, камерной сушки</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Балки межэтажного перекрытия:
+                              </td>
+                              <td class="info-table__td">Брус 40х150, с шагом не более 90 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Высота этажей:
+                              </td>
+                              <td class="info-table__td">1 этаж - 2.30 17 венцов. 2 этаж - 2.20</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Лестница:
+                              </td>
+                              <td class="info-table__td">Лаз на мансарду.</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Мансарда:	
+                              </td>
+                              <td class="info-table__td">Каркасная, обшита вагонкой хвойных пород, камерной сушки</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Стропила:	
+                              </td>
+                              <td class="info-table__td">Выполнены из доски 40х100мм, с шагом не более 90 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Поднебесники:
+                              </td>
+                              <td class="info-table__td">27 см</td>
+                            </tr>
+                            <tr class="info-table__tr">
+                              <td class="info-table__td">
+                                <div class="info-table__icon">
+                                  <div class="i-camera"></div>
+                                </div>Гвозди для сруба и силовых конструкций:	
+                              </td>
+                              <td class="info-table__td">Обычные, не оцинкованные. Для внешней и внутренней отделки, оцинкованные и финишные</td>
+                            </tr>
+                          </table><a class="btn btn_theme_yellow info-table__btn">Получить бесплатную консультацию</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="project-info-tab2">
+                  <div class="info-delivery">
+                    <p class="info-delivery__text">Современные деревянные коттеджи обладают всеми конкурентными преимуществами, делающими их широко востребованными на рынке загородного жилья. Экологически чистые жилые сооружения из высококачественной древесины, заготовленной в зимнее время в северных регионах страны, обеспечивают комфортное и безопасное проживание семьи.</p>
+                    <div class="info-delivery__map">
+                      <div style="height: 712px; background: gray;"></div>
+                    </div>
+                    <div class="info-delivery__a-b">Пестово 
+                      <div class="i-maps-arrow-right"></div> Луга :<span class="info-delivery__km">390 км</span>
+                    </div>
+                    <div class="info-delivery__mark">Предоставляется бесплатная доставка</div><a class="info-delivery__btn btn btn_theme_yellow">Получить бесплатную консультацию</a>
+                  </div>
+                  <div class="hidden">
+                    <div class="info-delivery__a-b info-delivery__a-b_popup">Пестово 
+                      <div class="i-maps-arrow-bottom info-delivery__arrow"></div> Луга :<span class="info-delivery__km info-delivery__km_popup">390 км</span>
+                      <div class="info-delivery__mark info-delivery__mark_popup">бесплатная доставка</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="project-info-tab3">3</div>
+                <div class="tab-pane fade" id="project-info-tab4">4</div>
+              </div>
+            </div>
+            <div class="project-info__tags project-info-tags">
+              <div class="project-info-tags__title">Проект относится к:</div><a class="btn btn_theme_green btn_type_info-tag project-info-tags__tag">Дачные дома</a><a class="btn btn_theme_green btn_type_info-tag project-info-tags__tag">Одноэтажные</a><a class="btn btn_theme_green btn_type_info-tag project-info-tags__tag">Маленькие</a><a class="btn btn_theme_green btn_type_info-tag project-info-tags__tag">Современный стиль</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foundation">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="text__h2 foundation__title">Фундаменты</h2>
+            <div class="service__items">
+              <div class="service__item">
+                    <div class="foundation-item">
+                      <div class="foundation-item__pr"><img src="images/foundation-item-1.jpg" alt=""></div>
+                      <div class="foundation-item__body">
+                        <div class="foundation-item__title">ЛЕНТОЧНЫЙ ФУНДАМЕНТ</div>
+                        <div class="foundation-item__price">от 880 000 <i class="fa fa-rub"></i></div><a class="foundation-item__btn btn btn_theme_green btn_type_service">Подробнее</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="service__item">
+                    <div class="foundation-item">
+                      <div class="foundation-item__pr"><img src="images/foundation-item-2.jpg" alt=""></div>
+                      <div class="foundation-item__body">
+                        <div class="foundation-item__title">Свайно- винтовой фундамент</div>
+                        <div class="foundation-item__price">от 880 000 <i class="fa fa-rub"></i></div><a class="foundation-item__btn btn btn_theme_green btn_type_service">Подробнее</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="service__item">
+                    <div class="foundation-item">
+                      <div class="foundation-item__pr"><img src="images/foundation-item-3.jpg" alt=""></div>
+                      <div class="foundation-item__body">
+                        <div class="foundation-item__title">Столбчатый фундамент</div>
+                        <div class="foundation-item__price">от 880 000 <i class="fa fa-rub"></i></div><a class="foundation-item__btn btn btn_theme_green btn_type_service">Подробнее</a>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="text__h2 service__title service__title_project">дОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h2>
+            <div class="service__items">
+              <div class="service__item">
+                    <div class="service-item">
+                      <div class="service-item__pr"><img src="images/service-item-1.jpg" alt=""></div>
+                      <div class="service-item__body">
+                        <div class="service-item__title">ЛЕНТОЧНЫЙ ФУНДАМЕНТ</div><a class="service-item__btn btn btn_theme_green btn_type_service">Подробнее</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="service__item">
+                    <div class="service-item">
+                      <div class="service-item__pr"><img src="images/service-item-2.jpg" alt=""></div>
+                      <div class="service-item__body">
+                        <div class="service-item__title">ПРоектирование объектов</div><a class="service-item__btn btn btn_theme_green btn_type_service">Подробнее</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="service__item">
+                    <div class="service-item">
+                      <div class="service-item__pr"><img src="images/service-item-3.jpg" alt=""></div>
+                      <div class="service-item__body">
+                        <div class="service-item__title">Отделка домов и бань</div><a class="service-item__btn btn btn_theme_green btn_type_service">Подробнее</a>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="send">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="send__body">
+              <h2 class="text__h2 send__title">оТПРАВИТЬ СООБЩЕНИЕ</h2>
+              <div class="send__slogan">Если вы не нашли подходящий проект, то обратившись к нам и рассказав о своих пожеланиях, мы разработаем для вас индивидуальный проект дома или бани, с учетом ваших пожеланий! </div>
+              <div class="send__mark">Это бесплатно</div>
+              <form action="./">
+                <div class="send__items">
+                  <div class="send__item">
+                    <div class="send__label">Имя</div>
+                    <input class="send__field" type="text">
+                  </div>
+                  <div class="send__item">
+                    <div class="send__label">E-mail</div>
+                    <input class="send__field" type="text">
+                  </div>
+                  <div class="send__item">
+                    <div class="send__label">Телефон</div>
+                    <input class="send__field" type="text">
+                  </div>
+                </div>
+                <div class="send__item">
+                  <div class="send__label">Текст сообщения</div>
+                  <textarea class="send__field send__field_comment"></textarea>
+                </div>
+                <div class="send__foo">
+                  <button class="btn btn_theme_green btn_type_send send__btn">Проекты домов из бруса</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects-slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="text__h2 projects-slider__title">Дополнительные услуги</h2>
+            <div class="projects-slider__items">
+              <div class="projects-slider__item">
+                    <div class="project-item corner_action">
+                      <div class="project-item__pr"><img src="images/project-item.jpg" width="385" height="256">
+                        <div class="project-item__title">ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»</div>
+                      </div>
+                      <div class="project-item__overlay project-item-overlay">
+                        <div class="project-item-overlay__pr">
+                          <div class="i-project-item"></div>
+                        </div>
+                      </div>
+                      <div class="project-item__body">
+                        <div class="project-item__left">
+                          <div class="project-item-chars">
+                            <div class="project-item-chars__char">
+                              <div class="project-item-chars__icon">
+                                <div class="i-chars-area"></div>
+                              </div>
+                              <div class="project-item-chars__text">
+                                <div class="project-item-chars__key">Площадь</div>
+                                <div class="project-item-chars__val">S-150 м<sup>2</sup></div>
+                              </div>
+                            </div>
+                            <div class="project-item-chars__char">
+                              <div class="project-item-chars__icon">
+                                <div class="i-chars-size"></div>
+                              </div>
+                              <div class="project-item-chars__text">
+                                <div class="project-item-chars__key">Размер</div>
+                                <div class="project-item-chars__val">6 х 6 м</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="project-item__right">
+                          <div class="project-item__price-label">стоимость от</div>
+                          <div class="project-item__price">880 000 <i class="fa fa-rub"></i></div><a class="project-item__btn btn btn_theme_green btn_type_project">Подробнее</a>
+                        </div>
+                        <div class="project-item__overlay project-item-overlay">
+                          <div class="project-item-overlay__title">ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»</div>
+                          <div class="project-item-overlay__size">6 х 6 м</div>
+                          <div class="project-item-overlay__price">420 000
+                            <div class="fa fa-rub"></div>
+                          </div>
+                          <div class="project-item-overlay__btn btn btn_theme_yellow btn_type_project">Подробнее</div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="projects-slider__item">
+                    <div class="project-item corner_action">
+                      <div class="project-item__pr"><img src="images/project-item.jpg" width="385" height="256">
+                        <div class="project-item__title">ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»</div>
+                      </div>
+                      <div class="project-item__overlay project-item-overlay">
+                        <div class="project-item-overlay__pr">
+                          <div class="i-project-item"></div>
+                        </div>
+                      </div>
+                      <div class="project-item__body">
+                        <div class="project-item__left">
+                          <div class="project-item-chars">
+                            <div class="project-item-chars__char">
+                              <div class="project-item-chars__icon">
+                                <div class="i-chars-area"></div>
+                              </div>
+                              <div class="project-item-chars__text">
+                                <div class="project-item-chars__key">Площадь</div>
+                                <div class="project-item-chars__val">S-150 м<sup>2</sup></div>
+                              </div>
+                            </div>
+                            <div class="project-item-chars__char">
+                              <div class="project-item-chars__icon">
+                                <div class="i-chars-size"></div>
+                              </div>
+                              <div class="project-item-chars__text">
+                                <div class="project-item-chars__key">Размер</div>
+                                <div class="project-item-chars__val">6 х 6 м</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="project-item__right">
+                          <div class="project-item__price-label">стоимость от</div>
+                          <div class="project-item__price">880 000 <i class="fa fa-rub"></i></div><a class="project-item__btn btn btn_theme_green btn_type_project">Подробнее</a>
+                        </div>
+                        <div class="project-item__overlay project-item-overlay">
+                          <div class="project-item-overlay__title">ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»</div>
+                          <div class="project-item-overlay__size">6 х 6 м</div>
+                          <div class="project-item-overlay__price">420 000
+                            <div class="fa fa-rub"></div>
+                          </div>
+                          <div class="project-item-overlay__btn btn btn_theme_yellow btn_type_project">Подробнее</div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="projects-slider__item">
+                    <div class="project-item corner_action">
+                      <div class="project-item__pr"><img src="images/project-item.jpg" width="385" height="256">
+                        <div class="project-item__title">ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»</div>
+                      </div>
+                      <div class="project-item__overlay project-item-overlay">
+                        <div class="project-item-overlay__pr">
+                          <div class="i-project-item"></div>
+                        </div>
+                      </div>
+                      <div class="project-item__body">
+                        <div class="project-item__left">
+                          <div class="project-item-chars">
+                            <div class="project-item-chars__char">
+                              <div class="project-item-chars__icon">
+                                <div class="i-chars-area"></div>
+                              </div>
+                              <div class="project-item-chars__text">
+                                <div class="project-item-chars__key">Площадь</div>
+                                <div class="project-item-chars__val">S-150 м<sup>2</sup></div>
+                              </div>
+                            </div>
+                            <div class="project-item-chars__char">
+                              <div class="project-item-chars__icon">
+                                <div class="i-chars-size"></div>
+                              </div>
+                              <div class="project-item-chars__text">
+                                <div class="project-item-chars__key">Размер</div>
+                                <div class="project-item-chars__val">6 х 6 м</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="project-item__right">
+                          <div class="project-item__price-label">стоимость от</div>
+                          <div class="project-item__price">880 000 <i class="fa fa-rub"></i></div><a class="project-item__btn btn btn_theme_green btn_type_project">Подробнее</a>
+                        </div>
+                        <div class="project-item__overlay project-item-overlay">
+                          <div class="project-item-overlay__title">ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»</div>
+                          <div class="project-item-overlay__size">6 х 6 м</div>
+                          <div class="project-item-overlay__price">420 000
+                            <div class="fa fa-rub"></div>
+                          </div>
+                          <div class="project-item-overlay__btn btn btn_theme_yellow btn_type_project">Подробнее</div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div><a class="projects-description__more btn btn_theme_green" href="#">Проекты домов из бруса</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="foo">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="foo__container">
+              <div class="foo__column foo__column_address">
+                <div class="foo-address">
+                  <h4 class="text__h4 foo-address__title">Наши адреса</h4>
+                  <ul class="foo-address__info">
+                    <li class="foo-address__item">г. Великий Новгород ул. Б. Московская д.109</li>
+                    <li class="foo-address__item">г.Москва улица Хлобыстова 17 Строительный рынок Альтаир</li>
+                    <li class="foo-address__item">г. Санкт-Петербург ул.Стрельбищенская, 16 Волковский рынок</li>
+                    <li class="foo-address__item foo-address__item_copy">© 2016 «Стройте У Нас»</li>
+                    <li class="foo-address__item foo-address__item_small">Информация на сайте не является публичной офертой.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="foo__column foo__column_contacts">
+                <div class="contacts-foo">
+                  <div class="contacts-foo__phone">+7 (950) 684-38-03</div>
+                  <div class="contacts-foo__city">Поменять город:<a class="contacts-foo__city-link" href="#">Москва</a></div><a class="btn btn_theme_green btn_size_sm contacts-foo__btn" href="#">ЗАКАЗАТЬ ЗВОНОК</a>
+                  <div class="contacts-foo__divider"></div>
+                  <div class="contacts-foo__social social"><a class="social__link" href="#"><i class="i-social-vk"></i></a><a class="social__link" href="#"><i class="i-social-ok"></i></a><a class="social__link" href="#"><i class="i-social-yt"></i></a><a class="social__link" href="#"><i class="i-social-fb"></i></a></div>
+                </div>
+              </div>
+              <div class="foo__column foo__column_nav">
+                <div class="foo-nav">
+                  <h4 class="text__h4 foo-nav__title">Проекты</h4>
+                  <ul class="foo-nav__list">
+                    <li class="foo-nav__item"><a class="foo-nav__link" href="#">Дома из бруса</a></li>
+                    <li class="foo-nav__item"><a class="foo-nav__link" href="#">Каркасные дома</a></li>
+                    <li class="foo-nav__item"><a class="foo-nav__link" href="#">Бани из бруса</a></li>
+                    <li class="foo-nav__item"><a class="foo-nav__link" href="#">Переврзные бани</a></li>
+                    <li class="foo-nav__item"><a class="foo-nav__link" href="#">Бани бочки</a></li>
+                  </ul>
+                </div>
+                <div class="foo-nav">
+                  <h4 class="text__h4 foo-nav__title">Услуги</h4>
+                  <ul class="foo-nav__list">
+                    <li class="foo-nav__item"><a class="foo-nav__link" href="#">Фундаменты</a></li>
+                    <li class="foo-nav__item"><a class="foo-nav__link" href="#">Заборы</a></li>
+                    <li class="foo-nav__item"><a class="foo-nav__link" href="#">Печи и отопление</a></li>
+                    <li class="foo-nav__item"><a class="foo-nav__link" href="#">Технический надзор</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.1.6/js/ion.rangeSlider.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="js/main.js?v=2"></script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+include mixin.jade
+
+.project
+	.container
+		.row
+			.col-xs-12
+				h2.text__h2.project__title
+					| дОМ из бруса 6х6 «Теремок»
+		.row
+			.col-xs-12.col-md-7.col-lg-8
+					.project__left
+						ul.project__gallery-tab.project-tabs-gallery
+							li.project-tabs-gallery__tab.active
+								a.project-tabs-gallery__link(data-toggle="tab" href="#project-gallery-tab1")
+									| Виды дома
+							li.project-tabs-gallery__tab
+								a.project-tabs-gallery__link(data-toggle="tab" href="#project-gallery-tab2")
+									| Планировка дома
+							li.project-tabs-gallery__tab
+								a.project-tabs-gallery__link(data-toggle="tab" href="#project-gallery-tab3", onclick="$('.project-gallery-slider__prs').trigger('reInit')")
+									| Фотографии дома
+						.tab-content
+							.tab-pane.fade.in.active#project-gallery-tab1
+								+project-slider()
+							.tab-pane.fade#project-gallery-tab2
+								+project-slider()
+							.tab-pane.fade#project-gallery-tab3
+								+project-slider()
+
+			.col-xs-12.col-md-5.col-lg-4
+				.project__chars.project-chars
+					.project-chars__title
+						| хАРАКТЕРИСТИКИ ПРОЕКТА
+					.project-chars__body
+						table.project-chars__table
+							tr.project-chars__tr
+								td.project-chars__td
+									span.project-chars__key
+										| Внешние размеры дома		
+								td.project-chars__td
+									span.project-chars__val
+										| 6х9 м
+							tr.project-chars__tr
+								td.project-chars__td
+									span.project-chars__key
+										| Общая площадь
+								td.project-chars__td
+									span.project-chars__val
+										| 99,75м2
+							tr.project-chars__tr
+								td.project-chars__td
+									span.project-chars__key
+										| Жилая площадь
+								td.project-chars__td
+									span.project-chars__val
+										| 82,64 м2
+							tr.project-chars__tr
+								td.project-chars__td
+									span.project-chars__key
+										| Высота 1 этажа
+								td.project-chars__td
+									span.project-chars__val
+										| 2,3-2,35 м
+							tr.project-chars__tr
+								td.project-chars__td
+									span.project-chars__key
+										| Высота 2 этажа
+								td.project-chars__td
+									span.project-chars__val
+										| 2,3-2,35 м
+							tr.project-chars__tr
+								td.project-chars__td
+									span.project-chars__key
+										| Количество комнат
+								td.project-chars__td
+									span.project-chars__val
+										| 4
+							tr.project-chars__tr
+								td.project-chars__td
+									span.project-chars__key
+										| Санузел
+								td.project-chars__td
+									span.project-chars__val
+										| Есть
+					footer.project-chars__foo
+						//- footer.project-chars__term
+						| Срок строительства
+						footer.project-chars__term
+							| 14 дней
+
+
+				
+				
+				
+				
+			
+					
+				.project__price.project-price
+					.project-price__label
+						| Стоимость строительства
+					.project-price__key
+						| от 480 000 
+						i.fa.fa-rub
+					.project-price__fixed
+						| Зафиксировать цену до 12.02.2017
+					.project-price__info
+						| Ожидается сезонное повышений цен
+					a.btn.btn_theme_yellow.project-price__btn
+						| Получить бесплатную консультацию
+		.row
+			.col-xs-12
+				include project.info.jade

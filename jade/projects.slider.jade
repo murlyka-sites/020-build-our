@@ -1,0 +1,17 @@
+include mixin.jade
+.projects-slider
+	.container
+		.row
+			.col-xs-12
+				h2.text__h2.projects-slider__title
+					| Дополнительные услуги
+
+				.projects-slider__items
+					.projects-slider__item
+						+project-item()
+					.projects-slider__item
+						+project-item()
+					.projects-slider__item
+						+project-item()
+				a.projects-description__more.btn.btn_theme_green(href="#")
+					| Проекты домов из бруса

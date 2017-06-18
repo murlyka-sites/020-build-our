@@ -1,0 +1,81 @@
+.project-info
+	ul.project-info__tab.project-tabs-gallery
+		li.project-tabs-gallery__tab.active
+			a.project-tabs-gallery__link(data-toggle="tab" href="#project-info-tab1")
+				| Цены и комплектации
+		li.project-tabs-gallery__tab
+			a.project-tabs-gallery__link(data-toggle="tab" href="#project-info-tab2")
+				| дОСТАВКА
+		li.project-tabs-gallery__tab
+			a.project-tabs-gallery__link(data-toggle="tab" href="#project-info-tab3")
+				| описание
+		li.project-tabs-gallery__tab
+			a.project-tabs-gallery__link(data-toggle="tab" href="#project-info-tab4")
+				| Вотпрос-ответ
+	.tab-content
+		.tab-pane.fade.in.active#project-info-tab1
+			ul.project-info__tab.project-tabs-table
+				li.project-tabs-table__tab.active
+					a.project-tabs-table__link(data-toggle="tab" href="#project-table-tab1")
+						.project-tabs-table__name
+							| Брус 90х140 мм.
+						.project-tabs-table__price
+							| 540 000 
+							i.fa.fa-rub
+				li.project-tabs-table__tab
+					a.project-tabs-table__link(data-toggle="tab" href="#project-table-tab2")
+						.project-tabs-table__name
+							| Клееный брус
+						.project-tabs-table__price
+							| 740 000 
+							i.fa.fa-rub
+				li.project-tabs-table__tab
+					a.project-tabs-table__link(data-toggle="tab" href="#project-table-tab3")
+						.project-tabs-table__name
+							| Каркасный вариант
+						.project-tabs-table__price
+							| 470 000 
+							i.fa.fa-rub
+				li.project-tabs-table__tab
+					a.project-tabs-table__link(data-toggle="tab" href="#project-table-tab4")
+						.project-tabs-table__name
+							| Сухой брус
+						.project-tabs-table__price
+							| 680 000 
+							i.fa.fa-rub
+				li.project-tabs-table__tab
+					a.project-tabs-table__link(data-toggle="tab" href="#project-table-tab5")
+						.project-tabs-table__name
+							| Брус из кедра
+						.project-tabs-table__price
+							| 920 000 
+							i.fa.fa-rub
+			.tab-content
+				.tab-pane.fade.in.active#project-table-tab1
+					+project-table()
+					
+				.tab-pane.fade#project-table-tab2
+					+project-table()
+				.tab-pane.fade#project-table-tab3
+					+project-table()
+				.tab-pane.fade#project-table-tab4
+					+project-table()
+				.tab-pane.fade#project-table-tab5
+					+project-table()
+		.tab-pane.fade#project-info-tab2
+			include info-delivery.jade
+		.tab-pane.fade#project-info-tab3
+			| 3
+		.tab-pane.fade#project-info-tab4
+			| 4
+.project-info__tags.project-info-tags
+	.project-info-tags__title
+		| Проект относится к:
+	a.btn.btn_theme_green.btn_type_info-tag.project-info-tags__tag
+		| Дачные дома
+	a.btn.btn_theme_green.btn_type_info-tag.project-info-tags__tag
+		| Одноэтажные
+	a.btn.btn_theme_green.btn_type_info-tag.project-info-tags__tag
+		| Маленькие
+	a.btn.btn_theme_green.btn_type_info-tag.project-info-tags__tag
+		| Современный стиль

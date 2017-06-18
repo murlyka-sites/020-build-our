@@ -1,0 +1,328 @@
+mixin build-project-item(title, titleSize, size, floor, old, price)
+	.build-project-item.corner_20perc
+		.build-project-item__pr
+			img(src="images/project-item-pr.jpg", alt=title, width="385", height="256")
+			.build-project-item__title
+				.build-project-item__name
+					| #{title}
+				.build-project-item__title-size
+					| #{titleSize} м
+					sup
+						| 2
+		.build-project-item__overlay.build-project-item-overlay
+			.build-project-item-overlay__pr
+				.i-project-item
+		.build-project-item__body
+			.build-project-item__info
+				| Размер #{size}
+				br
+				| Этажность: #{floor}
+				br
+				| Стоимость от:
+			.build-project-item__old-price
+				| #{old} Р
+			.build-project-item__new-price
+				| #{price} Р
+			a.build-project-item__btn.btn.btn_theme_green.btn_type_project
+				| Подробнее
+			.build-project-item__overlay.build-project-item-overlay
+				.build-project-item-overlay__title
+					| #{title}
+				.build-project-item-overlay__size
+					| #{size}
+				.build-project-item-overlay__price
+					| #{price} Р
+				.build-project-item-overlay__btn.btn.btn_theme_yellow.btn_type_project
+					| Подробнее
+
+mixin service-item(title, i)
+	.service-item
+		.service-item__pr
+			img(src="images/service-item-" + i + ".jpg", alt="")
+		.service-item__body
+			.service-item__title
+				| #{title}
+			a.service-item__btn.btn.btn_theme_green.btn_type_service
+				| Подробнее
+
+mixin galleries-item(i)
+	.galleries-item
+		.galleries-item__pr
+			img(src="images/galleries-item-" + i + ".jpg", alt="", width="370", height="370")
+		.galleries-item__overlay.galleries-item-overlay
+			a.galleries-item-overlay__link(href="#")
+				| Проект дома
+			.galleries-item-overlay__icon
+				a(href="#")
+					i.i-galleries
+			.galleries-item-overlay__count
+				| 25 фотографий
+			.galleries-item-overlay__title
+				| Дом из бруса «Афтандил»
+			.galleries-item-overlay__address
+				.i-target
+				.galleries-item-overlay__address-text
+					| Московская область, Руза
+
+mixin gallery-item(i)
+	.gallery-item
+		.gallery-item__pr
+			img(src="images/gallery-item-" + i + ".jpg", alt="", width="370", height="370")
+		.gallery-item__overlay.gallery-item-overlay
+			a.fancy(href="images/gallery-item-" + i + ".jpg", data-fancybox-group="gallery", title="Проект «В Брусе» объединяет собой несколько ключевых направлений работы группы компаний Новтехника, который позволяет строить частные дома по схеме «от производителя»")
+				i.i-galleries
+
+mixin news-item(i)
+	.news-item
+		.news-item__pr
+			a(href="#")
+				img(src="images/news.jpg", alt="", width="270", height="200")
+		.news-item__date
+			a(href="#")
+				| 24.06.2016
+		.news-item__title
+			a(href="#")
+				| Шруповерт фирмы Хитачи 12в с литьевыми аккамуляторами и фонариком
+		.news-item__desc
+			| Далеко не каждый день мы предлагаем полезные бонусы для заказчиков, но когда есть такая возможность - стараемся вас порадовать.
+
+mixin video-item()
+	.video-item
+		.video-item__video
+			div(style="background: red; height: 274px")
+		.video-item__title
+			| Видео-отзыв о доме из бруса «Афтандил»
+		.video-item__loc
+			.video-item__loc-icon
+				i.i-target-green
+			.video-item__loc-text
+				| Московская область, Руза
+
+mixin project-item()
+	.project-item.corner_action
+		.project-item__pr
+			img(src="images/project-item.jpg", alt=title, width="385", height="256")
+			.project-item__title
+				| ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»
+		.project-item__overlay.project-item-overlay
+			.project-item-overlay__pr
+				.i-project-item
+		.project-item__body
+			.project-item__left
+				.project-item-chars
+					.project-item-chars__char
+						.project-item-chars__icon
+							.i-chars-area
+						.project-item-chars__text
+							.project-item-chars__key
+								| Площадь
+							.project-item-chars__val
+								| S-150 м
+								sup
+									| 2
+					.project-item-chars__char
+						.project-item-chars__icon
+							.i-chars-size
+						.project-item-chars__text
+							.project-item-chars__key
+								| Размер
+							.project-item-chars__val
+								| 6 х 6 м
+			.project-item__right
+				.project-item__price-label
+					| стоимость от
+				.project-item__price
+					| 880 000 
+					i.fa.fa-rub
+				a.project-item__btn.btn.btn_theme_green.btn_type_project
+					| Подробнее
+			//- .project-item__info
+			//- 	| Размер #{size}
+			//- 	br
+			//- 	| Этажность: #{floor}
+			//- 	br
+			//- 	| Стоимость от:
+			//- .project-item__old-price
+			//- 	| #{old} Р
+			//- .project-item__new-price
+			//- 	| #{price} Р
+			//- a.project-item__btn.btn.btn_theme_green.btn_type_project
+			//- 	| Подробнее
+			.project-item__overlay.project-item-overlay
+				.project-item-overlay__title
+					| ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»
+				.project-item-overlay__size
+					| 6 х 6 м
+				.project-item-overlay__price
+					| 420 000
+					.fa.fa-rub
+				.project-item-overlay__btn.btn.btn_theme_yellow.btn_type_project
+					| Подробнее
+
+mixin project-slider()
+	.project__gallery.project-gallery-slider
+		.project__gallery.project-gallery-slider__icon
+			i.i-move
+		.project__gallery.project-gallery-slider__slides
+			.project-gallery-slider__slide
+				img(src="images/project-gallery.jpg", alt="")
+			.project-gallery-slider__slide
+				img(src="images/project-gallery.jpg", alt="")
+			.project-gallery-slider__slide
+				img(src="images/project-gallery.jpg", alt="")
+			.project-gallery-slider__slide
+				img(src="images/project-gallery.jpg", alt="")
+			.project-gallery-slider__slide
+				img(src="images/project-gallery.jpg", alt="")
+		.project__gallery.project-gallery-slider__prs
+			.project-gallery-slider__pr
+				img.img-responsive(src="images/project-gallery.jpg", alt="")
+			.project-gallery-slider__pr
+				img.img-responsive(src="images/project-gallery.jpg", alt="")
+			.project-gallery-slider__pr
+				img.img-responsive(src="images/project-gallery.jpg", alt="")
+			.project-gallery-slider__pr
+				img.img-responsive(src="images/project-gallery.jpg", alt="")
+			.project-gallery-slider__pr
+				img.img-responsive(src="images/project-gallery.jpg", alt="")
+
+mixin project-table
+	table.info-table
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Обвязка:
+			td.info-table__td
+				| Одинарная. Нестроганный брус хвойных пород естественной влажности 150х150мм.
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Лаги:	
+			td.info-table__td
+				| Брус 40х150, с шагом не более 70см
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Фронтоны:	
+			td.info-table__td
+				| Выполнены из доски 40х100мм, обшиты вагонкой хвойных пород, естественной влажности
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Обрешетка:	
+			td.info-table__td
+				| Не сплошная из полуобрезной доски 20 мм, с шагом не более 30 см
+
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Кровля:	
+			td.info-table__td
+				| Рубероид.
+
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Сборка углов:	
+			td.info-table__td
+				| В пол дерева.
+
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Капитальные стены:	
+			td.info-table__td
+				| Профилированный брус хвойных пород естественной влажности, размерами 100х150мм (100мм ширина х 150мм высота), возможно выполнение из бруса 150х150мм 150х200мм.
+
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Теплоизоляция:	
+			td.info-table__td
+				| В качестве теплоизоляции между брусом укладывается межвенцовый утеплитель – джутовое льнополотно
+
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Перегородки:
+			td.info-table__td
+				| 1-й этаж: профилированный брус естественной влажности 100х150мм, (100мм ширина х 150мм высота) 2-й этаж: каркасные из доски 40х100, отделанные вагонкой хвойных пород, камерной сушки
+
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Балки межэтажного перекрытия:
+			td.info-table__td
+				| Брус 40х150, с шагом не более 90 см
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Высота этажей:
+			td.info-table__td
+				| 1 этаж - 2.30 17 венцов. 2 этаж - 2.20
+
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Лестница:
+			td.info-table__td
+				| Лаз на мансарду.
+
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Мансарда:	
+			td.info-table__td
+				| Каркасная, обшита вагонкой хвойных пород, камерной сушки
+
+
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Стропила:	
+			td.info-table__td
+				| Выполнены из доски 40х100мм, с шагом не более 90 см
+
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Поднебесники:
+			td.info-table__td
+				| 27 см
+		tr.info-table__tr
+			td.info-table__td()
+				.info-table__icon
+					.i-camera
+				| Гвозди для сруба и силовых конструкций:	
+			td.info-table__td
+				| Обычные, не оцинкованные. Для внешней и внутренней отделки, оцинкованные и финишные
+	a.btn.btn_theme_yellow.info-table__btn
+		| Получить бесплатную консультацию
+
+mixin foundation-item(title, i)
+	.foundation-item
+		.foundation-item__pr
+			img(src="images/foundation-item-" + i + ".jpg", alt="")
+		.foundation-item__body
+			.foundation-item__title
+				| #{title}
+			.foundation-item__price
+				| от 880 000 
+				i.fa.fa-rub
+			a.foundation-item__btn.btn.btn_theme_green.btn_type_service
+				| Подробнее

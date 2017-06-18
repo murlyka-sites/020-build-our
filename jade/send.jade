@@ -1,0 +1,32 @@
+.send
+	.container
+		.row
+			.col-xs-12
+				.send__body
+					h2.text__h2.send__title
+						| оТПРАВИТЬ СООБЩЕНИЕ
+					.send__slogan
+						| Если вы не нашли подходящий проект, то обратившись к нам и рассказав о своих пожеланиях, мы разработаем для вас индивидуальный проект дома или бани, с учетом ваших пожеланий! 
+					.send__mark
+						| Это бесплатно
+					form(action="./")
+						.send__items
+							.send__item
+								.send__label
+									| Имя
+								input.send__field(type="text")
+							.send__item
+								.send__label
+									| E-mail
+								input.send__field(type="text")
+							.send__item
+								.send__label
+									| Телефон
+								input.send__field(type="text")
+						.send__item
+							.send__label
+								| Текст сообщения
+							textarea.send__field.send__field_comment
+						.send__foo
+							button.btn.btn_theme_green.btn_type_send.send__btn
+								| Проекты домов из бруса

@@ -1,0 +1,51 @@
+include mixin.jade
+.build-example
+	.clearfix.build-example__header
+		.container
+			.row
+				.col-xs-12
+					.divider
+					h2.text__h2.build-example__title
+						| СТРОИТЕЛЬСТВО ЖИЛЫХ ДЕРЕВЯННЫХ ДОМОВ
+					ul.build-example-tabs
+						li.build-example-tabs__tab.active
+							a.build-example-tabs__link(data-toggle="tab" href="#example-tab1")
+								| Акции
+						li.build-example-tabs__tab
+							a.build-example-tabs__link(data-toggle="tab" href="#example-tab2")
+								| Новинки
+						li.build-example-tabs__tab
+							a.build-example-tabs__link(data-toggle="tab" href="#example-tab3")
+								| Построено
+	.clearfix.build-example__body.build-example-contents
+		.container
+			.row
+				.col-xs-12
+					.tab-content
+						.tab-pane.fade.in.active#example-tab1
+							.build-example-contents__content
+								.build-example-contents__items
+									.build-example-contents__item
+										+build-project-item("ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»", "S-150", "6x6 м", "1,5 этажа", "520 000", "480 000")
+									.build-example-contents__item
+										+build-project-item("ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»", "S-150", "6x6 м", "1,5 этажа", "520 000", "480 000")
+									.build-example-contents__item
+										+build-project-item("ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»", "S-150", "6x6 м", "1,5 этажа", "520 000", "480 000")
+						.tab-pane.fade#example-tab2
+							.build-example-contents__content
+								.build-example-contents__items
+									.build-example-contents__item
+										+build-project-item("ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»", "S-150", "6x6 м", "1,5 этажа", "520 000", "480 000")
+									.build-example-contents__item
+										+build-project-item("ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»", "S-150", "6x6 м", "1,5 этажа", "520 000", "480 000")
+									.build-example-contents__item
+										+build-project-item("ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»", "S-150", "6x6 м", "1,5 этажа", "520 000", "480 000")
+						.tab-pane.fade#example-tab3
+							.build-example-contents__content
+								.build-example-contents__items
+									.build-example-contents__item
+										+build-project-item("ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»", "S-150", "6x6 м", "1,5 этажа", "520 000", "480 000")
+									.build-example-contents__item
+										+build-project-item("ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»", "S-150", "6x6 м", "1,5 этажа", "520 000", "480 000")
+									.build-example-contents__item
+										+build-project-item("ДОМ ИЗ БРУСА «АЛЕКСИЯ 1»", "S-150", "6x6 м", "1,5 этажа", "520 000", "480 000")

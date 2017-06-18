@@ -1,0 +1,25 @@
+header.header
+	.container
+		.row
+			.col-xs-12
+				.header__container
+					.header__column.header__column_logo
+						img(src="images/logo.png", alt="Стройте у нас", width="197", height="59") 
+					.header__column.header__column_contacts
+						.contacts-header
+							.contacts-header__city
+								| Ваш город: 
+								a.contacts-header__city-link(href="#")
+									| Москва
+							.contacts-header__info
+								.contacts-header__phone
+									| +7 (950) 684-38-03
+								.contacts-header__schedule
+									| Ежедневно с 9:00 до 21:00
+							a.btn.btn_theme_yellow.btn_size_sm(href="#")
+								| ЗАКАЗАТЬ ЗВОНОК
+					form.header__column.header__column_search(action="./")
+						.search.hidden-xs
+							input.search__input(type="text", placeholder="Поиск")
+							button.btn.btn_theme_green.btn_type_search()
+								.i-search
